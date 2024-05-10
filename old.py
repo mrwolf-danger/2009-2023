@@ -392,13 +392,13 @@ def follow(ses,coki):
 logo = ("""\033[1;32m \x1b[1;96m ███╗░░░███╗██████╗░  ░██╗░░░░░░░██╗░█████╗░██╗░░░░░███████╗\n████╗░████║██╔══██╗  ░██║░░██╗░░██║██╔══██╗██║░░░░░██╔════╝\n██╔████╔██║██████╔╝  ░╚██╗████╗██╔╝██║░░██║██║░░░░░█████╗░░\n██║╚██╔╝██║██╔══██╗  ░░████╔═████║░██║░░██║██║░░░░░██╔══╝░░\n██║░╚═╝░██║██║░░██║  ░░╚██╔╝░╚██╔╝░╚█████╔╝███████╗██║░░░░░\n╚═╝░░░░░╚═╝╚═╝░░╚═╝  ░░░╚═╝░░░╚═╝░░░╚════╝░╚══════╝╚═╝░░░░░\n                                \033
 __________________×______________________
   
-  AUTHOR   :  MR WOLF
+  AUTHOR    :  MR WOLF
  
-  GITHUB   :  mrwolf-danger
+  GITHUB    :  mrwolfboy
 
-  FACEBOOK : Ifad Ibrahim
+  FACEBOOK  :  Ifad Ibrahim
   
-  INSTAGRAM : @ifadibrahim7
+  INSTAGRAM :  ifadibrahim7
 __________________×______________________\033[1;37m""")
 
 class menu:
@@ -1289,7 +1289,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/mrwolf-danger/approval/blob/main/approval.txt").text
+	r1=requests.get("https://github.com/mrwolfboy/approval/blob/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
